@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared style  */
+.primary-color{
+    color: rgb(58, 58, 58);
+}
+.secondary-color{
+    color: red;
+
+}
+h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+h2{
+    font-size: 2.38rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+h4{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1rem;
+}
+li {
+    list-style: none;    
+}
+a{
+    text-decoration: none;  
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+img{
+    /* width: 100%; */
+}
+
+.hide{
+    visibility: hidden;
+}
+.grid{
+    display: grid;
+    gap: 24px;
+    grid-template-columns:repeat(3,1fr);
+}
+
+
+
+
+/* 
+.div-1{
+    background-color: red;
+}
+.div-2{
+    background-color: blue;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* single items */
+nav{    
+    margin: 87px 120px auto;
+}
+.menu{
+    padding: 8px 0;
+}
+.banner-section{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    align-items: center;    
+}
+.banner-bg{
+    background-image: url(../assets/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sponsor-section{
+    margin-top: 69px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 36px 62px;
+    text-align: center;
+}
+.popular-section{
+    margin: 100px 196px;
+}
+.popular-section-title{
+    margin-bottom: 30px;
+}
+.featured-section{
+    margin: 0px 165px;
+}
+footer{
+    background-color: rgb(36, 36, 120);
+    text-align: center;
+    color: white;
+    height: 150px;
+    padding: 50px;
+}
