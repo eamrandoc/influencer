@@ -55,13 +55,23 @@ a{
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.15);
 }
-/* single items */
+button{
+    background-color: rgb(244, 44, 189);
+    border: none ;
+    border-radius: 41px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 26px;
+    padding: 10px;
+}
+/* header items */
 nav{    
     margin: 87px 120px auto;
 }
 .menu{
     padding: 8px 0;
 }
+/* .banner-section */
 .banner-section{
     margin-top: 50px;
     margin-left: 120px;
@@ -75,6 +85,7 @@ nav{
     background-size: cover;
     background-position: center;
 }
+/* .sponsor-section */
 .sponsor-section{
     margin-top: 69px;
     margin-left: 120px;
@@ -82,21 +93,28 @@ nav{
     padding: 36px 62px;
     text-align: center;
 }
+/* .popular-section */
 .popular-section{
     margin: 100px 196px;
 }
 .popular-section-title{
     margin-bottom: 30px;
 }
+/* .see-more-right */
 .see-more-right{
     padding-top: 50px;
-    text-align: right;
+    text-align: right;    
 }
+.see-more-right a{
+color: rgb(244, 44, 189);
+}
+/* .featured-section */
 .featured-section{
     margin: 0px 165px;
 }
+/* footer */
 footer{
-    background-color: rgb(36, 36, 120);
+    background-color: rgb(10, 8, 38);
     text-align: center;
     color: white;
     height: 150px;
